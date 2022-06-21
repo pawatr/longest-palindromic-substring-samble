@@ -17,7 +17,6 @@ output.json
 *.apk
 *.ap_
 *.aab
-output.json
 
 # IntelliJ
 *.iml
