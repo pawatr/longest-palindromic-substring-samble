@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity() {
         var longest = ""
 
         fun check(i: Int, j: Int) {
-            var left = i; var right = j
+            var left = i
+            var right = j
             while (left >= 0 && right < s.length) {
                 if (s[left] != s[right]) break
                 if (right - left + 1 > longest.length)
